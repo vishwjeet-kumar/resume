@@ -1,0 +1,38 @@
+.navbar{
+    .navbar-brand{
+        font: {
+            size: 1.3rem;
+            weight:700;
+        };
+        margin: 0 0.5rem;
+
+        background: -webkit-linear-gradient( #FA5353, #DD2476);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+    .sun{
+        background: -webkit-linear-gradient( #f2b50e, #dd3a24);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        size: 1.4rem;
+
+    }
+    .moon{
+        background: -webkit-linear-gradient( #0e62f2, #62eff9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 1px 15px rgba(182, 224, 250, 0.5);
+        font-size:.1.8rem;
+
+    }
+}
+
+@media(min-width:900px)
+{
+    .navbar{
+        .navbar-brand{
+            font-size: 2rem;
+        }
+    }
+}

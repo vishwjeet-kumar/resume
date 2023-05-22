@@ -1,0 +1,87 @@
+.profile{
+    margin:12rem 0
+}
+
+@media (max-width:767px)
+{
+    .custom-card{
+        border: none;
+        border-radius: 20px;
+        position: relative;
+        .profile_img{
+            position: absolute;
+            height: 12rem;
+            box-shadow: 3px 3px 10px rgba($color: #000000, $alpha: 0.3);
+           
+        }
+        .social-icon{
+            .fa-brands{
+                margin: 0 0.5rem;
+            }
+        }
+    }
+    .right-side{
+        h3{
+            padding-left: 9vw !important;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+        .contact-us-form{
+            form{
+                padding-left: 6vw !important;
+                padding-bottom: 6vw !important;
+            }
+        }
+        .resume{
+            .qualification{
+                p{
+                    font-size: 0.7rem !important;
+                }
+            }
+        }
+        .menu-icon{
+            padding: 1rem;
+            margin: 0 0.3rem;
+            font-size: 0.6rem;
+        }
+        .title{
+            font: 800 2rem "Roboto Slab", serif;
+            margin: 1rem 1rem 1rem 0.5rem;
+        }
+        p{
+            margin: 1rem;
+        }
+        .sub-title{
+            margin: 0;
+            font-size: 1.3rem;
+        }
+    }
+    .custom-card{
+        .details{
+            margin: 1rem 0.2rem;
+            padding: 2rem 1rem;
+            border-radius: 10px;
+        }
+    }
+   
+}
+
+@media (min-width:767px) and (max-width:900px)
+{
+    .custom-card{
+        border: none;
+        border-radius: 20px;
+        position: relative;
+        .profile_img{
+            position: absolute;
+            height: 14rem;
+            box-shadow: 3px 3px 10px rgba($color: #000000, $alpha: 0.3);
+            
+        }
+        .social-icon{
+            .fa-brands{
+                margin: 0 0.5rem;
+            }
+        }
+    }
+}

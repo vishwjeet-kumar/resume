@@ -1,0 +1,6 @@
+<nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <a [ngClass]="!themeMode ? 'navbar-brand text-dark text-uppercase':'navbar-brand text-white text-uppercase'" href="#">Portfolio</a>
+      <i [ngClass]="!themeMode ? 'fa-solid fa-sun theme-icon sun':'fa-solid fa-moon theme-icon moon'" (click)="changeThemeColor()"></i>
+    </div>
+</nav>
